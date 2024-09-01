@@ -74,9 +74,8 @@ weighted avg 1.00 1.00 1.00 56962
       ```sh
       jupyter notebook CreditCardFraudDetection.ipynb
   a. If using Jupyter Notebook:
-      
-      ```sh
-     python credit_card_fraud_detection.py
+
+      python credit_card_fraud_detection.py
 ## Saved Model
 
 The trained Random Forest model is saved as `credit_card_fraud_model.pkl`. You can load and use this model for predictions on new data.
