@@ -10,7 +10,13 @@
 This project is focused on developing a machine learning model to detect fraudulent credit card transactions. The model is trained using a dataset that contains a large number of transactions, both legitimate and fraudulent. The Random Forest algorithm was used for classification due to its robustness and effectiveness in handling imbalanced datasets.
 
 ## Dataset
-- **Source:** The dataset used is `creditcard.csv`.
+- **Source:**
+  ## Dataset
+
+For this model, I used the **Credit Card Fraud Detection** dataset available on Kaggle. The dataset can be accessed [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download).
+
+The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions.
+ 
 - **Size:** 284,807 transactions.
 - **Features:** 30 features including time and amount.
 - **Target:** The target variable `Class` represents whether a transaction is fraudulent (1) or not (0).
